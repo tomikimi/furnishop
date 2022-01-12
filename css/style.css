@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  max-width: 150rem;
-  margin: 0 auto;
+  /* max-width: 150rem;
+  margin: 0 auto; */
   color: #034b35;
   background-color: #fff;
   line-height: 1;
@@ -49,10 +49,11 @@ body {
   width: 100%;
 }
 
-/* .container {
-  max-width: 120rem;
+.container {
+  max-width: 150rem;
   margin: 0 auto;
-} */
+}
+
 /* Header */
 .header {
   display: flex;
@@ -203,7 +204,7 @@ body {
 
 /* Partners */
 .section-partners {
-  margin: 4rem 0;
+  margin: 10rem 0;
 }
 
 .partner-container {
@@ -214,8 +215,9 @@ body {
 .partner-container h2 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
+  color: #000;
   letter-spacing: 1.5;
-  margin-bottom: 2rem;
+  margin: 4rem 0rem;
   text-transform: capitalize;
   text-align: center;
 }
@@ -223,6 +225,7 @@ body {
 .partners {
   display: flex;
   justify-content: space-evenly;
+  margin: 2rem 0rem;
 }
 
 .partners span {
