@@ -38,6 +38,10 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .left-panel {
   position: relative;
 }
@@ -233,4 +237,61 @@ body {
   font-size: 3rem;
   filter: brightness(0);
   opacity: 50%;
+}
+
+/* Deals */
+.section-deals {
+  margin: 2rem 0;
+}
+
+.deals-details span:nth-child(1) {
+  color: #034b35;
+  font-size: 5rem;
+  display: inline-block;
+}
+
+.deals-details span:nth-child(2) {
+  font-size: 3rem;
+  display: inline-block;
+}
+
+.deals-details span:nth-child(3) {
+  font-size: 5rem;
+  display: inline-block;
+}
+
+.deals-details p {
+  margin: 2rem 0rem;
+  color: #868e96;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.deals-icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  color: #000;
+}
+
+.deal-package h3 {
+  color: #212529;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin: 3rem 0rem;
+}
+
+.deal-package p {
+  margin: 3.5rem 0rem;
+  color: #868e96;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
 }
