@@ -42,6 +42,18 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-template {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-template-2 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
 .left-panel {
   position: relative;
 }
@@ -56,6 +68,66 @@ body {
 .container {
   max-width: 150rem;
   margin: 0 auto;
+}
+
+.heading-md {
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  margin: 2.5rem 0;
+}
+
+.heading-sm {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
+}
+
+.paragraph-md {
+  color: #868e96;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+.paragraph-sm {
+  color: #868e96;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+.section {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.btn-more:link,
+.btn-more:visited {
+  justify-self: end;
+  align-self: center;
+  background-color: #e9ecef;
+  color: #868e96;
+  padding: 2rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  box-shadow: 0px 40px 40px 1px rgb(215 212 212 / 78%);
+  transition: all 0.5s;
+}
+
+.btn-more:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #043a2a;
+  box-shadow: 0px 40px 40px 1px rgba(37, 255, 171, 0.78);
 }
 
 /* Header */
@@ -96,7 +168,6 @@ body {
   cursor: pointer;
   border: none;
   color: #06bd86;
-  box-shadow: 0px 1px 14px 4px rgba(113, 247, 184, 0.479);
 }
 
 .search {
@@ -277,6 +348,10 @@ body {
   color: #000;
 }
 
+.deal-package {
+  justify-self: end;
+}
+
 .deal-package h3 {
   color: #212529;
   font-family: "Poppins", sans-serif;
@@ -294,4 +369,53 @@ body {
   font-weight: 500;
   line-height: 2.5rem;
   letter-spacing: 0.1rem;
+}
+
+/* About */
+.section-about {
+  margin: 5rem 0rem;
+}
+
+.flex-container {
+  display: flex;
+  gap: 12.5rem;
+  margin-top: 8rem;
+}
+
+.about-1 {
+  grid-row: 1/2;
+}
+.about-2 {
+  grid-row: -7/3;
+}
+.about-3 {
+  grid-column: 2/3;
+  grid-row: 3/7;
+}
+.about-4 {
+  grid-row: 2/14;
+}
+
+.about-1 img {
+  width: 33rem;
+  height: 16rem;
+  object-fit: cover;
+}
+
+.about-2 img {
+  width: 33rem;
+  height: 38rem;
+  object-fit: cover;
+}
+
+.about-3 img {
+  width: 33rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.about-4 img {
+  width: 33rem;
+  height: 38rem;
+  object-fit: cover;
 }
