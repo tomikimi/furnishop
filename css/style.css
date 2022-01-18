@@ -12,7 +12,7 @@ html {
 body {
   /* max-width: 150rem;
   margin: 0 auto; */
-  color: #034b35;
+  color: #023a29;
   background-color: #fff;
   line-height: 1;
   letter-spacing: 0.5rem;
@@ -61,6 +61,14 @@ body {
   width: 100%;
 }
 
+.text-italic {
+  font-style: italic;
+  font-weight: 600;
+}
+.text-center {
+  text-align: center;
+}
+
 .right-panel img {
   width: 100%;
 }
@@ -99,6 +107,21 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+.margin-top {
+  margin-top: 10rem;
+}
+
+.margin-bottom {
+  margin-bottom: 5rem;
+}
+
+.span-sm {
+  color: #212529;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
 }
 
@@ -418,4 +441,224 @@ body {
   width: 33rem;
   height: 38rem;
   object-fit: cover;
+}
+
+/* Product */
+.section-product {
+  margin: 5rem 0rem;
+}
+
+.product-container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.product-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grey-box {
+  background-color: #dee2e6;
+  padding: 0.5rem 2rem;
+  position: relative;
+  left: 30%;
+}
+
+.icon-forward-arrow {
+  width: 4rem;
+  height: 2rem;
+  position: absolute;
+  right: 5%;
+  color: #212529;
+}
+
+.product-links {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+  justify-content: center;
+  margin: 3rem 0rem;
+}
+
+.product-link:link,
+.product-link:visited {
+  text-decoration: none;
+  color: #adb5bd;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  transition: all 0.5s;
+}
+
+.product-link:hover,
+.product-link:active {
+  color: #212529;
+  cursor: pointer;
+}
+
+.product-link.active:link,
+.product-link.active:visited {
+  text-decoration: none;
+  color: #212529;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  transition: all 0.5s;
+}
+
+.product-link.active:hover,
+.product-link.active:active {
+  color: #adb5bd;
+  cursor: pointer;
+}
+
+.product-item {
+  position: relative;
+  max-width: 32rem;
+  padding: 12rem 3rem;
+  background-color: #dee2e6;
+  margin: 7rem 0rem;
+}
+
+.product-header {
+  position: absolute;
+  top: 2rem;
+  left: 4.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #212529;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
+}
+
+.product-item img {
+  position: absolute;
+  top: 17rem;
+  left: 5rem;
+  width: 70%;
+  height: 60%;
+}
+
+.bonus-price {
+  position: absolute;
+  top: 7.8rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #212529;
+  letter-spacing: 0.1rem;
+}
+
+.price {
+  position: absolute;
+  top: 8rem;
+  left: 11rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: #868e96;
+  letter-spacing: 0.1rem;
+}
+
+.product-icon {
+  position: absolute;
+  top: -1rem;
+  left: 28rem;
+  padding: 1rem;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #b98f7b;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+/* Testimonials */
+.section-testimonial {
+  margin: 4rem 0rem;
+}
+
+.testimonial {
+  margin-left: 12rem;
+}
+
+.testimonial-container {
+  position: relative;
+  overflow: hidden;
+  background-color: #e9ecef;
+  padding: 3rem;
+  border-radius: 1rem;
+  /* height: 50vh; */
+}
+
+.inner-circle {
+  background-image: radial-gradient(circle, transparent 50%, #023a29 50%);
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: -16%;
+  left: -9%;
+  /* margin: 25px; */
+}
+
+.outer-circle {
+  background-image: radial-gradient(circle, transparent 55%, #023a29 55%);
+  border-radius: 100%;
+  height: 462px;
+  width: 462px;
+  position: absolute;
+  top: -26%;
+  left: -14%;
+}
+
+.testimonial-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-image {
+  width: 50%;
+  justify-self: end;
+}
+
+.testimonial-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.testimonial-name {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.testimonial-office {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: #adb5bd;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.testimonial-margin {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.testimonial-icon {
+  width: 2rem;
+  height: 2rem;
+  padding: 2rem;
+  margin: 0rem 1rem;
+  border-radius: 50%;
+  background-color: #fff;
 }
