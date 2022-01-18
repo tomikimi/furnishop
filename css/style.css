@@ -41,6 +41,9 @@ body {
 .grid-4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 
 .grid-template {
   grid-template-columns: repeat(2, 1fr);
@@ -576,7 +579,7 @@ body {
 
 /* Testimonials */
 .section-testimonial {
-  margin: 4rem 0rem;
+  margin: 15rem 0rem;
 }
 
 .testimonial {
@@ -661,4 +664,109 @@ body {
   margin: 0rem 1rem;
   border-radius: 50%;
   background-color: #fff;
+}
+/* Footer */
+footer {
+  background-color: #1b5542;
+  margin-top: 10rem;
+}
+.footer-container {
+  width: 130rem;
+  margin: 0 auto;
+  padding: 3rem 0rem;
+}
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 9rem 0;
+}
+
+.footer-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  line-height: 6rem;
+}
+
+.footer-button {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.btn-started {
+  text-decoration: none;
+  background-color: #fff;
+  color: #1b5542;
+  padding: 2rem 4rem;
+  border-radius: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.btn-contact {
+  text-decoration: none;
+  background-color: #adb5bd;
+  color: #fff;
+  padding: 2rem 4rem;
+  border-radius: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.faint-line {
+  border-bottom: 1px solid #adb5bd47;
+  margin-bottom: 9rem;
+}
+
+.footer-logo {
+  display: inline-block;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.social-media {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-icon {
+  color: #fff;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-top: 2rem;
+}
+
+.white {
+  color: #fff;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.footer-link.active:link,
+.footer-link.active:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: rgba(255, 255, 255, 0.623);
+  text-decoration: none;
 }
